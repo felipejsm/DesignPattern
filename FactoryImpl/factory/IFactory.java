@@ -1,3 +1,5 @@
+import chart.*;
+
 public interface IFactory {
     public Legend createLegend();
     public Title createTitle();
