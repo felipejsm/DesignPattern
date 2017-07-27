@@ -1,7 +1,36 @@
 <!DOCTYPE html>
 <html>
-        <head></head>
+        <head>
+                 <meta charset="utf-8">
+                <script src='https://cdnjs.cloudflare.com/ajax/libs/echarts/3.6.2/echarts.min.js'></script> 
+        </head>
         <body>
-            
+             <div id="main" style="width: 600px;height:400px;"></div>
+             <script type="text/javascript">
+                        // based on prepared DOM, initialize echarts instance
+                        var myChart = echarts.init(document.getElementById('main'));
+
+                        // specify chart configuration item and data
+                        var option = {
+                                title: {
+                                        text: 'ECharts entry example'
+                                },
+                                tooltip: {},
+                                legend: {
+                                        data:['Sales']
+                                },
+                                xAxis: {
+                                        data: ["shirt","cardign","chiffon shirt","pants","heels","socks"]
+                                },
+                                yAxis: {},
+                                series: [{
+                                        name: 'Sales',
+                                        type: 'bar',
+                                        data: [5, 20, 36, 10, 10, 20]
+                                }]
+                        };
+                // use configuration item and data specified to show chart
+                myChart.setOption(option);
+                </script>
         </body>
 </html>
