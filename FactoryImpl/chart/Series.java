@@ -3,6 +3,7 @@ public class Series {
     private String name;
     private Type type;
     private MarkLine markLine;
+    private Object[] data;
 
     public void setName(String name) {
         this.name = name;
@@ -22,4 +23,10 @@ public class Series {
     public MarkLine getMarkLine() {
         return markLine;
     }
+    public void setData(Object[] data) {
+        this.data = data;
+    }
+    public Object[] getData() {
+        return this.data;
+    } 
 }
