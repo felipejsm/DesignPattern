@@ -1,3 +1,4 @@
+package com.dp.chart;
 public enum Type {
     
     LINE("line"),

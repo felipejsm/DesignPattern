@@ -1,3 +1,4 @@
+package com.dp.chart;
 public class Xaxis {
     private String[] data;
 	

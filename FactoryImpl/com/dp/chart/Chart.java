@@ -1,6 +1,5 @@
-import chart.Series;
-import chart.Legend;
-import chart.Title;
+package com.dp.chart;
+import java.util.List;
 public abstract class Chart {
     public List<Series> series;
     public Title title;

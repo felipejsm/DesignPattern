@@ -1,3 +1,6 @@
+package com.dp.chart;
+import com.dp.chart.factory.IFactory;
+
 public class LineChart extends Chart {
     public IFactory factory;
     public LineChart(IFactory factory) {

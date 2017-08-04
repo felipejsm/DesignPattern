@@ -1,4 +1,6 @@
-import Type;
+package com.dp.chart;
+import com.dp.chart.Type;
+import com.dp.chart.markline.MarkLine;
 public class Series {
     private String name;
     private Type type;

@@ -1,3 +1,4 @@
+package com.dp.chart.markline;
 public class Data {
     private String type;
     private String name;
