@@ -14,7 +14,7 @@ public class LineChartFactory implements IFactory{
         Legend legend = new Legend();
         String [] data = {"Lula","Bolsonaro","Aécio"}; 
         legend.setData(data);
-        return data;
+        return legend;
     }
     public Title createTitle() {
         Title title = new Title();
@@ -36,7 +36,7 @@ public class LineChartFactory implements IFactory{
         seriePresidentCandidate2.setName("Bolsonaro");
         Object[] dataPresident2 = {15, 25, 38, 1, 17, 2,60, 80, 15, 25, 17, 59};
         seriePresidentCandidate2.setData(dataPresident2);
-        seriePresidentCandidat2e.setType(Type.LINE);
+        seriePresidentCandidate2.setType(Type.LINE);
 
         //#3 serie
         Series seriePresidentCandidate3 = new Series();
@@ -55,7 +55,7 @@ public class LineChartFactory implements IFactory{
     public List<Xaxis> createXaxis() {
         List<Xaxis> xaxisList = new ArrayList<>();
         Xaxis xaxis = new Xaxis();
-        Strin[] data = {"Jan","Fev","March","April","May","Jun",
+        String[] data = {"Jan","Fev","March","April","May","Jun",
                         "Jul","Aug","Sep","Oct","Nov","Dec"};
         xaxis.setData(data);
         return xaxisList;
