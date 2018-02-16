@@ -1,5 +1,5 @@
 # DesignPattern
-:book: :game_die: Desing Patterns in Java
+:book: :game_die: Design Patterns in Java
 ## Goals:
 - Understand the core concepts of main DP;
 - Implements the usual DP exercises;
