@@ -10,7 +10,7 @@
 - Singleton     
 
 ## Structural    
-- Decorator
+- [Decorator](Decorator/decorator.md)
 - Adapter
 - Bridge
 - Composite
@@ -19,7 +19,7 @@
 - Proxy
 
 ## Behavior
-- Strategy
+- [Strategy](Strategy/strategy.md)
 - Chain of Responsibility
 - Command
 - Interpreter
